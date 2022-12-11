@@ -4,6 +4,7 @@ import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import java.util.List;
@@ -11,7 +12,6 @@ import java.util.List;
 public class ReviewsViewModel extends AndroidViewModel {
     ReviewsRepositorio reviewsRepositorio;
 
-    MutableLiveData<List<Review>> listreviewsMutableLiveData = new MutableLiveData<>();
     MutableLiveData<Review> reviewSeleccionado = new MutableLiveData<>();
 
     public ReviewsViewModel(@NonNull Application application) {
@@ -19,38 +19,23 @@ public class ReviewsViewModel extends AndroidViewModel {
 
         reviewsRepositorio = new ReviewsRepositorio();
 
-        listreviewsMutableLiveData.setValue(reviewsRepositorio.obtener());
+        reviewsRepositorio = new ReviewsRepositorio(application);
     }
 
-    MutableLiveData<List<Review>> obtener(){
-        return listreviewsMutableLiveData;
+    LiveData<List<Review>> obtener(){
+        return reviewsRepositorio.obtener();
     }
 
     void insertar(Review review){
-        reviewsRepositorio.insertar(review, new ReviewsRepositorio.Callback() {
-            @Override
-            public void cuandoFinalice(List<Review> reviews) {
-                listreviewsMutableLiveData.setValue(reviews);
-            }
-        });
+        reviewsRepositorio.insertar(review);
     }
 
     void eliminar(Review review){
-        reviewsRepositorio.eliminar(review, new ReviewsRepositorio.Callback() {
-            @Override
-            public void cuandoFinalice(List<Review> reviews) {
-                listreviewsMutableLiveData.setValue(reviews);
-            }
-        });
+        reviewsRepositorio.eliminar(review);
     }
 
     void actualizar(Review review, float valoracion){
-        reviewsRepositorio.actualizar(review, valoracion, new ReviewsRepositorio.Callback() {
-            @Override
-            public void cuandoFinalice(List<Review> review) {
-                listreviewsMutableLiveData.setValue(review);
-            }
-        });
+        reviewsRepositorio.actualizar(review, valoracion);
     }
 
     void seleccionar(Review review){
@@ -60,4 +45,11 @@ public class ReviewsViewModel extends AndroidViewModel {
     MutableLiveData<Review> seleccionado(){
         return reviewSeleccionado;
     }
+
+
+
+
+
+
+
 }

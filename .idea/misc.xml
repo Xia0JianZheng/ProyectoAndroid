@@ -5,8 +5,9 @@
       <map>
         <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_drawer.xml" value="0.1" />
         <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/drawer_header.xml" value="0.1" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/drawer_header.xml" value="0.25" />
         <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_carrito.xml" value="0.1" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_home.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_mostrar_elemento.xml" value="0.21467391304347827" />
         <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_mostrar_producto.xml" value="0.21467391304347827" />
         <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_mostrar_review.xml" value="0.2296195652173913" />
