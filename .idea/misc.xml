@@ -3,9 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_drawer.xml" value="0.17755825734549138" />
-        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/drawer_header.xml" value="0.1" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_carrito.xml" value="0.1" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_mostrar_elemento.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_mostrar_producto.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_mostrar_review.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_nuevo_review.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_productos.xml" value="0.1" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_recycler_reviews.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_review.xml" value="0.17983789260385005" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/viewholder_producto.xml" value="0.17933130699088146" />
+        <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/viewholder_review.xml" value="0.1875" />
         <entry key="..\:/Users/xjz99/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/menu/drawer_menu.xml" value="0.30185185185185187" />
       </map>
     </option>

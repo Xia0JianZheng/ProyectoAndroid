@@ -6,12 +6,8 @@
         android:title="Productos" />
 
     <item
-        android:id="@+id/reviewFragment"
+        android:id="@+id/recyclerReviewFragment"
         android:icon="@android:drawable/ic_menu_directions"
         android:title="Review" />
 
-    <item
-        android:id="@+id/carritoFragment"
-        android:icon="@android:drawable/ic_menu_directions"
-        android:title="Carrito" />
 </menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productosFragment">
+
+
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.proyectoandroid.ProductosFragment"
+        android:label="Productos"
+        tools:layout="@layout/fragment_productos" />
+    <fragment
+        android:id="@+id/recyclerReviewFragment"
+        android:name="com.example.proyectoandroid.RecyclerReviewsFragment"
+        android:label="Review"
+        tools:layout="@layout/fragment_recycler_reviews" >
+        <action
+            android:id="@+id/action_recyclerReviewFragment_to_nuevoReviewFragment"
+            app:destination="@id/nuevoReviewFragment" />
+        <action
+            android:id="@+id/action_recyclerReviewFragment_to_mostrarReviewFragment"
+            app:destination="@id/mostrarReviewFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_recyclerReviewsFragment_to_mostrarReviewFragment"
+        app:destination="@id/mostrarReviewFragment" />
+    <action
+        android:id="@+id/action_recyclerReviewsFragment_to_nuevoReviewFragment"
+        app:destination="@id/nuevoReviewFragment" />
+
+    <fragment
+        android:id="@+id/nuevoReviewFragment"
+        android:name="com.example.proyectoandroid.NuevoReviewFragment"
+        android:label="fragment_nuevo_review"
+        tools:layout="@layout/fragment_recycler_reviews" />
+    <fragment
+        android:id="@+id/mostrarReviewFragment"
+        android:name="com.example.proyectoandroid.MostrarReviewFragment"
+        android:label="fragment_mostrar_ewview"
+        tools:layout="@layout/fragment_recycler_reviews" />
+</navigation>
